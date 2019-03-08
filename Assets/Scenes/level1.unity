@@ -273,8 +273,9 @@ GameObject:
   m_Component:
   - component: {fileID: 933465304}
   - component: {fileID: 933465303}
+  - component: {fileID: 933465305}
   m_Layer: 0
-  m_Name: Black_viper
+  m_Name: Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336,12 +337,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933465302}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.07, y: -3.647, z: 0}
+  m_LocalPosition: {x: -0.12, y: -3.72, z: 0}
   m_LocalScale: {x: 0.631, y: 0.591, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &933465305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933465302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1854a4c1eabdc443ca6f56cee56e204a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carSpeed: 10
 --- !u!1 &1957793295
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,8 +368,9 @@ GameObject:
   - component: {fileID: 1957793298}
   - component: {fileID: 1957793297}
   - component: {fileID: 1957793296}
+  - component: {fileID: 1957793300}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -434,3 +449,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1957793300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957793295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 675728925e10a474e9050e7b4570ae78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
