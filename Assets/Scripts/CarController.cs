@@ -28,4 +28,14 @@ public class CarController : MonoBehaviour
 
         transform.position = position;
     }
+
+    // when the rigid body car collides with any other/ another rigidbody car (enemy car)
+    // the car will get destroyed.
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "EnemyCar")
+        {
+            Destroy(gameObject);
+        }
+    }
 }

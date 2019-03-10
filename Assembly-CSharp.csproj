@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CarController.cs" />
     <Compile Include="Assets\Scripts\CarSpawner.cs" />
+    <Compile Include="Assets\Scripts\EnemyCarDestroyer.cs" />
     <Compile Include="Assets\Scripts\EnemyCarMovement.cs" />
     <Compile Include="Assets\Scripts\MovingTheRoad.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
