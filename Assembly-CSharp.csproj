@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\EnemyCarDestroyer.cs" />
     <Compile Include="Assets\Scripts\EnemyCarMovement.cs" />
     <Compile Include="Assets\Scripts\MovingTheRoad.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/rjgupta/Desktop/Courses/Game CS541/Race-Time/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
