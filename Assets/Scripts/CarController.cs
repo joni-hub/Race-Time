@@ -11,6 +11,8 @@ public class CarController : MonoBehaviour
 
     Vector3 position;
 
+    public UIManager ui;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +38,7 @@ public class CarController : MonoBehaviour
         if(collision.gameObject.tag == "EnemyCar")
         {
             Destroy(gameObject);
+            ui.GameOver();
         }
     }
 }

@@ -5,8 +5,8 @@
       <File FileName="Assets/Scripts/CarController.cs" Line="38" Column="33" />
       <File FileName="Assets/Scripts/CarSpawner.cs" Line="31" Column="44" />
       <File FileName="Assets/Scripts/EnemyCarMovement.cs" Line="11" Column="6" />
-      <File FileName="Assets/Scripts/EnemyCarDestroyer.cs" Line="23" Column="43" />
-      <File FileName="Assets/Scripts/UIManager.cs" Line="17" Column="6" />
+      <File FileName="Assets/Scripts/EnemyCarDestroyer.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/UIManager.cs" Line="15" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
