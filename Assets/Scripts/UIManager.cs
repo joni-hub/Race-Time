@@ -8,8 +8,8 @@ public class UIManager : MonoBehaviour
 {
     public Text scoreText;
     int score;
-
     bool gameOver;
+    public Button[] buttons;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +37,10 @@ public class UIManager : MonoBehaviour
     public void GameOver()
     {
         gameOver = true;
+        foreach(Button button in buttons)
+        {
+            button.gameObject.SetActive(true);
+        }
     }
 
     public void Play() => SceneManager.LoadScene("Level1");
@@ -52,4 +56,10 @@ public class UIManager : MonoBehaviour
             Time.timeScale = 1;
         }
     }
+
+    public void Replay() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+    public void Menu() => SceneManager.LoadScene("Menu");
+
+    public void Quit() => Application.Quit();
 }
