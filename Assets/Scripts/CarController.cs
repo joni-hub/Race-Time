@@ -43,9 +43,12 @@ public class CarController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // touch input
         if(checkAndroidPlatform)
         {
-
+            TouchMove();
+            //using accelerometer for movement of the car.
+            AccelerometerMove();
         }
         else
         {
@@ -88,5 +91,48 @@ public class CarController : MonoBehaviour
     public void SetSpeedZero()
     {
         rb.velocity = Vector2.zero;
+    }
+
+    /* ********************* TOUCH INPUTS ************************ */
+
+    void TouchMove()
+    {
+        if(Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            float mid = Screen.width / 2;
+
+            if(touch.position.x < mid && touch.phase == TouchPhase.Began)
+            {
+                MoveLeft();
+            } else if(touch.position.x > mid && touch.phase == TouchPhase.Began) 
+            {
+                MoveRight();
+            }
+            else
+            {
+                SetSpeedZero();
+            }
+        }
+    }
+
+
+    /* ********************* ACCELEROEMETER INPUTS ************************ */
+
+    void AccelerometerMove()
+    {
+        float x = Input.acceleration.x;
+
+        if(x < -0.1f)
+        {
+            MoveLeft();
+        } else if( x > 0.1f)
+        {
+            MoveRight();
+        }
+        else
+        {
+            SetSpeedZero();
+        }
     }
 }

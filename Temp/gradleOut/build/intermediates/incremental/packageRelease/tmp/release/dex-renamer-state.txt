@@ -1,0 +1,4 @@
+#Thu Mar 14 14:32:07 EDT 2019
+base.0=/Users/rjgupta/Desktop/Courses/Game CS541/Race-Time/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
