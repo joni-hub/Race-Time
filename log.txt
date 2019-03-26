@@ -1,0 +1,71 @@
+commit 78f1f57fda0f2964ea2292adb121452bc0ee3c7b
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Thu Mar 14 18:24:48 2019 -0400
+
+    Update: README, music, apk
+
+commit 7390e880fb4318b1777409fe2a0581bfc750480f
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Thu Mar 14 14:37:11 2019 -0400
+
+    Update: game built, android shift
+
+commit fe0aac2a44c0cebf59c111174b075eba5ac8ae26
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Wed Mar 13 16:50:42 2019 -0400
+
+    Update: left, right btn add
+
+commit 61825fca3046cff4d8f2d1773c62b33b6a4103f5
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Wed Mar 13 16:15:54 2019 -0400
+
+    Update: Game scale for android
+
+commit 95209db954d91e79bd31501b1f7473b395e4b486
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Wed Mar 13 16:08:28 2019 -0400
+
+    Update: the fox audio add
+
+commit 124b1ec0b1824b53ec63af341a8de791607a8364
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Wed Mar 13 14:12:30 2019 -0400
+
+    Pause btn, start screen
+
+commit f4c91499f702c8252dfb0c810fdc00a56381f5f9
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Sun Mar 10 21:36:14 2019 -0400
+
+    Pause btn finally works
+
+commit 6c1048e7043e71f4217ca5aec015774f57144a2e
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Sat Mar 9 21:48:34 2019 -0500
+
+    random cars built
+
+commit b4975227871e369142317d9642062f67f8b1db9e
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Sat Mar 9 13:28:55 2019 -0500
+
+    Update: enemy car, road limits
+
+commit 06c176bf1d099d9a59cc2661757ef7cc9653754b
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Thu Mar 7 22:09:49 2019 -0500
+
+    Track loops, car moves
+
+commit 1636b9441aaa90d0cf633a7e75521252209c9a33
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Wed Mar 6 19:34:46 2019 -0500
+
+    Update: Car and road built
+
+commit 9ff6b97e032b6b94abc176c7e52819255df21a63
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Wed Mar 6 17:44:56 2019 -0500
+
+    First commit
